@@ -20,28 +20,18 @@ img{
 }
 .round{
   float: left;
-  clip-path: circle(40% at center center);
-  shape-outside: circle(40% at center center);
 }
 .ellipse{
   float: right;
-  clip-path: ellipse(41.40% 44.28% at 50% 50%);
-  shape-outside: ellipse(41.40% 44.28% at 50% 50%);
 }
 .diamond{
   float: left;
-  clip-path: polygon(50% 10%, 100% 50%, 50% 90%, 0% 50%);
-  shape-outside: polygon(50% 10%, 100% 50%, 50% 90%, 0% 50%);
 }
 .octagon{
   float: right;
-  clip-path: polygon(40% 10%, 63% 12%, 76% 36%, 75% 69%, 59% 91%, 38% 90%, 23% 66%, 24% 33%);
-  shape-outside: polygon(40% 10%, 63% 12%, 76% 36%, 75% 69%, 59% 91%, 38% 90%, 23% 66%, 24% 33%);
 }
 .star{
   float: left;
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  shape-outside: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 
 @media (prefers-color-scheme: light){
