@@ -13,6 +13,7 @@ p{
   text-indent: 2rem;
   font-size: 20px;
   text-align: justify;
+  margin: 1rem 8rem;
 }
 img{
   width: 30%;
@@ -45,6 +46,7 @@ img{
   margin-top: 0;
   margin-bottom: 0;
 }
+
 
 @media (prefers-color-scheme: light){
   body{
