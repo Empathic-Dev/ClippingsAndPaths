@@ -19,7 +19,7 @@ img{
   width: 30%;
   margin: 30px;
 }
-.round{
+.circle{
   float: left;
   clip-path: circle(40% at center center);
   shape-outside: circle(40% at center center);
